@@ -1,0 +1,39 @@
+﻿<routes>
+<vType id="car" type="passenger" length="5" accel="3.5" decel="2.2" sigma="1.0"/>
+
+<!--2020-04-20 --><!--02시--><!--1--><flow id="carflow01" type="car" begin="0" end="3600" vehsPerHour="201" from="484462990"  to="667354420" via="706712805" departLane="best" />
+<!--2--><flow id="carflow02" type="car" begin="0" end="3600" vehsPerHour="1" from=" 583307812#2" to="667354420" departLane="best" />
+<!--3--><flow id="carflow03" type="car" begin="0" end="3600" vehsPerHour="22" from="706712811" to="667354420" via = "706712805"  departLane="best" />
+<!--4--><flow id="carflow04" type="car" begin="0" end="3600" vehsPerHour="14" from="706712811" to="667354420" via = "741638791#0" departLane="best" />
+<!--5--><flow id="carflow05" type="car" begin="0" end="3600" vehsPerHour="20" from="484462990"  to="669301561" departLane="best" />
+<!--6--><flow id="carflow06" type="car" begin="0" end="3600" vehsPerHour="1" from="583307812#2" to="669301561" departLane="best" />
+<!--7--><flow id="carflow07" type="car" begin="0" end="3600" vehsPerHour="20" from="-621392371#0" to="669301561" via = "-706712805" departLane="best" />
+<!--8--><flow id="carflow08" type="car" begin="0" end="3600" vehsPerHour="4" from="-621392371#0" to="669301561" departLane="best" />
+<!--9--><flow id="carflow09" type="car" begin="0" end="3600" vehsPerHour="7" from="-621392371#0" to="-583307812#2" departLane="best" />
+<!--10--><flow id="carflow10" type="car" begin="0" end="3600" vehsPerHour="2" from="706712811" to="-583307812#2" departLane="best" />
+<!--11--><flow id="carflow11" type="car" begin="0" end="3600" vehsPerHour="4" from="484462990"  to="-583307812#2" via = "706712805" departLane="best" />
+<!--12--><flow id="carflow12" type="car" begin="0" end="3600" vehsPerHour="2" from="484462990"  to="-583307812#2" via = "741638791#0" departLane="best" />
+<!--13--><flow id="carflow13" type="car" begin="0" end="3600" vehsPerHour="180" from="-621392371#0" to="-667354421" departLane="best" />
+<!--14--><flow id="carflow14" type="car" begin="0" end="3600" vehsPerHour="3" from="706712811" to="-667354421" departLane="best" />
+<!--15--><flow id="carflow15" type="car" begin="0" end="3600" vehsPerHour="1" from="583307812#2" to="-667354421" via = "706712805" departLane="best" />
+<!--16--><flow id="carflow16" type="car" begin="0" end="3600" vehsPerHour="3" from="583307812#2" to="-667354421" via = "741638791#0" departLane="best" />
+
+<!--2020-04-20 --><!--03시--><!--1--><flow id="carflow17" type="car" begin="3600" end="7200" vehsPerHour="137" from="484462990"  to="667354420" via="706712805" departLane="best" />
+<!--2--><flow id="carflow18" type="car" begin="3600" end="7200" vehsPerHour="3" from=" 583307812#2" to="667354420" departLane="best" />
+<!--3--><flow id="carflow19" type="car" begin="3600" end="7200" vehsPerHour="15" from="706712811" to="667354420" via = "706712805"  departLane="best" />
+<!--4--><flow id="carflow20" type="car" begin="3600" end="7200" vehsPerHour="14" from="706712811" to="667354420" via = "741638791#0" departLane="best" />
+<!--5--><flow id="carflow21" type="car" begin="3600" end="7200" vehsPerHour="7" from="484462990"  to="669301561" departLane="best" />
+<!--6--><flow id="carflow22" type="car" begin="3600" end="7200" vehsPerHour="1" from="583307812#2" to="669301561" departLane="best" />
+<!--7--><flow id="carflow23" type="car" begin="3600" end="7200" vehsPerHour="7" from="-621392371#0" to="669301561" via = "-706712805" departLane="best" />
+<!--8--><flow id="carflow24" type="car" begin="3600" end="7200" vehsPerHour="6" from="-621392371#0" to="669301561" departLane="best" />
+<!--9--><flow id="carflow25" type="car" begin="3600" end="7200" vehsPerHour="3" from="-621392371#0" to="-583307812#2" departLane="best" />
+<!--10--><flow id="carflow26" type="car" begin="3600" end="7200" vehsPerHour="2" from="706712811" to="-583307812#2" departLane="best" />
+<!--11--><flow id="carflow27" type="car" begin="3600" end="7200" vehsPerHour="4" from="484462990"  to="-583307812#2" via = "706712805" departLane="best" />
+<!--12--><flow id="carflow28" type="car" begin="3600" end="7200" vehsPerHour="2" from="484462990"  to="-583307812#2" via = "741638791#0" departLane="best" />
+<!--13--><flow id="carflow29" type="car" begin="3600" end="7200" vehsPerHour="154" from="-621392371#0" to="-667354421" departLane="best" />
+<!--14--><flow id="carflow30" type="car" begin="3600" end="7200" vehsPerHour="4" from="706712811" to="-667354421" departLane="best" />
+<!--15--><flow id="carflow31" type="car" begin="3600" end="7200" vehsPerHour="1" from="583307812#2" to="-667354421" via = "706712805" departLane="best" />
+<!--16--><flow id="carflow32" type="car" begin="3600" end="7200" vehsPerHour="5" from="583307812#2" to="-667354421" via = "741638791#0" departLane="best" />
+
+
+</routes>

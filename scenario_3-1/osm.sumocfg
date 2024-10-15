@@ -1,0 +1,21 @@
+<configuration>
+    <input>
+        <net-file value="osm.net.xml"/>
+        <route-files value="osm_rl.rou.xml"/>
+        <gui-settings-file value="sample.settings.xml"/>
+    </input>
+
+    <time>
+        <begin value="0"/>
+        <end value="7200"/>
+    </time>
+
+    <gui_only>
+	    <S value="t"/>
+	    <Q value="t"/>
+    </gui_only>
+
+    <output>
+        <tripinfo-output value="sample.tripinfo.xml"/>
+    </output>
+</configuration>

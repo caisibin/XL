@@ -1,0 +1,40 @@
+<routes>
+  <vType id="car" length="5" accel="5" decel="10" speedDev="0.1"/>
+  <flow id="f_0_0" from="-10114#1" to="-10079" via="10115#2 -10109" begin="0" end="300" vehsPerHour="325" type="car"/>
+  <flow id="f_0_1" from="10096#1" to="10063" via="10089#3" begin="0" end="300" vehsPerHour="325" type="car"/>
+  <flow id="f_1_0" from="-10114#1" to="-10079" via="10115#2 -10109" begin="300" end="600" vehsPerHour="325" type="car"/>
+  <flow id="f_1_1" from="-10114#1" to="-10079" via="-10114#0 10108#0 gneE5" begin="300" end="600" vehsPerHour="325" type="car"/>
+  <flow id="f_1_2" from="10096#1" to="10063" via="10089#3" begin="300" end="600" vehsPerHour="325" type="car"/>
+  <flow id="f_1_3" from="-10185#1" to="-10071#3" via="gneE20" begin="300" end="600" vehsPerHour="325" type="car"/>
+  <flow id="f_2_0" from="-10114#1" to="-10079" via="10115#2 -10109" begin="600" end="900" vehsPerHour="325" type="car"/>
+  <flow id="f_2_1" from="-10114#1" to="-10079" via="-10114#0 10108#0 gneE5" begin="600" end="900" vehsPerHour="325" type="car"/>
+  <flow id="f_2_2" from="-10114#1" to="-10079" via="-10114#0 10108#0 10102" begin="600" end="900" vehsPerHour="325" type="car"/>
+  <flow id="f_2_3" from="-10114#1" to="10076" via="-10114#0 10107 10102" begin="600" end="900" vehsPerHour="325" type="car"/>
+  <flow id="f_2_4" from="10096#1" to="10063" via="10089#3" begin="600" end="900" vehsPerHour="325" type="car"/>
+  <flow id="f_2_5" from="-10185#1" to="-10071#3" via="gneE20" begin="600" end="900" vehsPerHour="325" type="car"/>
+  <flow id="f_2_6" from="10096#1" to="10063" via="10109" begin="600" end="900" vehsPerHour="325" type="car"/>
+  <flow id="f_2_7" from="-10185#1" to="-10061#5" via="gneE19" begin="600" end="900" vehsPerHour="325" type="car"/>
+  <flow id="f_3_0" from="-10114#1" to="-10079" via="10115#2 -10109" begin="900" end="1200" vehsPerHour="325" type="car"/>
+  <flow id="f_3_1" from="-10114#1" to="-10079" via="-10114#0 10108#0 gneE5" begin="900" end="1200" vehsPerHour="325" type="car"/>
+  <flow id="f_3_2" from="-10114#1" to="-10079" via="-10114#0 10108#0 10102" begin="900" end="1200" vehsPerHour="325" type="car"/>
+  <flow id="f_3_3" from="-10114#1" to="10076" via="-10114#0 10107 10102" begin="900" end="1200" vehsPerHour="325" type="car"/>
+  <flow id="f_3_4" from="10096#1" to="10063" via="10089#3" begin="900" end="1200" vehsPerHour="325" type="car"/>
+  <flow id="f_3_5" from="-10185#1" to="-10071#3" via="gneE20" begin="900" end="1200" vehsPerHour="325" type="car"/>
+  <flow id="f_3_6" from="10096#1" to="10063" via="10109" begin="900" end="1200" vehsPerHour="325" type="car"/>
+  <flow id="f_3_7" from="-10185#1" to="-10061#5" via="gneE19" begin="900" end="1200" vehsPerHour="325" type="car"/>
+  <flow id="f_3_8" from="10052#1" to="10104" via="10181#1 -10089#3" begin="900" end="1200" vehsPerHour="325" type="car"/>
+  <flow id="f_3_9" from="10061#4" to="-10085" via="10065#2 10102" begin="900" end="1200" vehsPerHour="325" type="car"/>
+  <flow id="f_4_0" from="-10114#1" to="-10079" via="10115#2 -10109" begin="1200" end="1500" vehsPerHour="325" type="car"/>
+  <flow id="f_4_1" from="-10114#1" to="-10079" via="-10114#0 10108#0 gneE5" begin="1200" end="1500" vehsPerHour="325" type="car"/>
+  <flow id="f_4_2" from="-10114#1" to="-10079" via="-10114#0 10108#0 10102" begin="1200" end="1500" vehsPerHour="325" type="car"/>
+  <flow id="f_4_3" from="-10114#1" to="10076" via="-10114#0 10107 10102" begin="1200" end="1500" vehsPerHour="325" type="car"/>
+  <flow id="f_4_4" from="10096#1" to="10063" via="10089#3" begin="1200" end="1500" vehsPerHour="325" type="car"/>
+  <flow id="f_4_5" from="-10185#1" to="-10071#3" via="gneE20" begin="1200" end="1500" vehsPerHour="325" type="car"/>
+  <flow id="f_4_6" from="10096#1" to="10063" via="10109" begin="1200" end="1500" vehsPerHour="325" type="car"/>
+  <flow id="f_4_7" from="-10185#1" to="-10061#5" via="gneE19" begin="1200" end="1500" vehsPerHour="325" type="car"/>
+  <flow id="f_4_8" from="10052#1" to="10104" via="10181#1 -10089#3" begin="1200" end="1500" vehsPerHour="325" type="car"/>
+  <flow id="f_4_9" from="-10064#9" to="10104" via="-10068 10102" begin="1200" end="1500" vehsPerHour="325" type="car"/>
+  <flow id="f_4_10" from="10061#4" to="-10085" via="10065#2 10102" begin="1200" end="1500" vehsPerHour="325" type="car"/>
+  <flow id="f_4_11" from="10071#3" to="10085" via="10065#2 -10064#3" begin="1200" end="1500" vehsPerHour="325" type="car"/>
+
+</routes>
